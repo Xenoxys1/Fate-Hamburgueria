@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato F/H</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <body id="contato">
+        <div id="cabecalho3">
+            <p><a href="/html/index.html">Home</a> - <a href="/html/cardapio.html">Cardápio</a> - <a
+                    href="/html/contato.html">Contato</a></p>
+        </div>
+        <div id="corpo3">
+            <form action="action_page.php" method="post">
+                <label for="nome"><b>Nome:</b></label>
+                <input type="text" placeholder="Digite seu nome" name="nome" required>
+                <br>
+                <br>
+                <label for="email"><b>E-mail</b></label>
+                <input type="email" placeholder="Digite seu e-mail" name="e-mail" required>
+                <br>
+                <br>
+                <label for="fone"><b>Telefone:</b></label>
+                <input type="text" placeholder="Telefone/Whatsapp" name="telefone/whatsapp" required>
+                <br>
+                <br>
+                <label for="Assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option label="Elogios" value="1">Elogios</option>
+                    <option label="Negócios" value="2">Negócios</option>
+                    <option label="Reclamações" value="3">Reclamações</option>
+                </select>
+                <br>
+                <textarea id="Review" name="Assunto" rows="4" cols="50"></textarea>
+                <br>
+                <button type="submit" value="enviar" name="btnEnviar" class="btn">Enviar</button>
+                <button type="reset" value="limpar" name="btnLimpar" class="btn">Limpar</button>
+            </form>
+        </div>
+    </body>
+
+</html>

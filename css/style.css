@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: contain;
+    background-image: url(/img/back3.jpg);
+    background-color: orange;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#cabecalho {
+    height: 225px;
+    margin-bottom: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black;
+}
+
+#cabecalho p {
+    font-size: 50pt;
+}
+
+#cabecalho h1 {
+    color: rgb(255, 0, 43);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+#corpo {
+    width: 800px;
+    height: 870px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto;
+    border-radius: 1pc;
+    padding: 5px;
+    border: solid black 5px;
+}
+
+#corpo img {
+    margin-left: 135px;
+    margin-top: 20px;
+}
+
+#corpo h1 {
+    text-align: justify;
+    text-indent: 30px;
+    text-decoration: underline;
+    font-size: 40pt;
+}
+
+#corpo p {
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 20pt;
+    color: black;
+}
+
+#rodape {
+    margin-top: 5px;
+    margin: 5px auto;
+    width: 800px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: double rgb(0, 0, 0) 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 1pc;
+}
+
+#rodape h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#cabecalho2 {
+    width: 800px;
+    height: 90px;
+    margin: 5px auto;
+    background-color: white;
+    border: double black 10px;
+    border-radius: 1pc;
+}
+
+#cabecalho2 p {
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+#corpo2 {
+    width: 800px;
+    height: 3680px;
+    background-color: white;
+    margin: 0px auto;
+    border: solid black 5px;
+    color: red;
+}
+
+#corpo2 h1 {
+    text-align: center;
+    text-indent: 30px;
+    text-decoration: underline;
+    font-size: 40pt;
+    background-color: yellow;
+    border: solid orange 5px;
+}
+
+#corpo3 {
+    width: 800px;
+    height: 325px;
+    background-color: white;
+    margin: 0px auto;
+    border-radius: 1pc;
+    padding: 5px;
+    border: solid black 5px;
+}
+
+#cabecalho3 {
+    width: 800px;
+    height: 90px;
+    margin: 5px auto;
+    background-color: white;
+    border: double black 10px;
+    margin-top: 100px;
+    border-radius: 1pc;
+}
+
+#cabecalho3 p {
+    color: rgb(255, 0, 43);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+#corpo3 label {
+    font-size: 20px;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+#corpo3 input {
+    font-size: 20px;
+}
+
+#corpo3 .btn {
+    font-size: 30px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+#contato {
+    background-size: cover;
+    background-image: url(/img/back3.jpg);
+    background-color: orange;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#corpo2 table {
+    table-layout: initial;
+    text-align: justify;
+    font-size: 30pt;
+    margin: 2px auto;
+    border: solid black;
+}
+
+#corpo2 .lin {
+    background-color: rgb(216, 216, 216);
+}
+#corpo2 img{
+    border: solid red 5px;
+    margin: 5px;
+}
+.special {
+    display: flex;
+    justify-content: space-around;
+}
+.special ul {
+  font-size: 15pt;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.special h3 {
+    font-size: 30pt;
+    margin-left: 50px;
+}
+.special p{
+    font-size: 15pt;
+  padding-top: 10px;
+  margin-left: 50px;
+}
+.special h3{
+    background-color: yellow;
+    border: solid 5px red;
+    border-radius: 1pc;
+    text-align: center;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.special h2{
+    font-size: 30pt;
+}
